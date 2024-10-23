@@ -96,8 +96,11 @@ Será uma função para criar a pagina principal , onde foi criado dois card (de
 
 ### globals.css
 O CSS Global aplica-se a toda a aplicação, ou seja, todos os elementos em qualquer página ou componente serão afetados por essas regras.
+
 Ele é geralmente definido em um arquivo como globals.css, localizado na pasta src.
+
 Ele é semelhante ao CSS tradicional, onde as classes e seletores aplicam estilos em nível global.
+
 Bom para: reset de CSS, tipografia padrão, e estilos comuns que se aplicam em várias partes da aplicação.
 
 
@@ -111,7 +114,9 @@ Ele muda o corpo da pagina inteiro para cor azul claro, isso será aplicado para
  
 ### Page.module.css
 Um CSS Módulo é usado para aplicar estilos localmente em um componente. Isso significa que os estilos definidos em um módulo só afetam o componente ao qual estão associados.
+
 Arquivos de CSS Módulo têm a extensão .module.css e são importados diretamente dentro do componente onde os estilos serão usados.
+
 Ao importar, Next.js gera classes únicas automaticamente, garantindo que não haja conflitos de nomes de classe entre diferentes componentes.
 
 
@@ -134,6 +139,7 @@ Nessa parte:
 }
 ```
 .filmes: é um contêiner flexível que organiza seus itens em múltiplas linhas (se necessário), centralizando-os horizontalmente e deixando um espaço de 25px entre cada item.
+
 .titulo: é um contêiner flexível que centraliza seu conteúdo e texto, com um espaçamento de 15px entre os itens internos e uma margem interna de 10px. O texto tem uma cor azul escura.
 Esses estilos são aplicados localmente no componente que importa esse CSS Módulo
 
