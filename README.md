@@ -94,6 +94,11 @@ export default function Home() {
 ```
 Será uma função para criar a pagina principal , onde foi criado dois card (dentro do section ).
 
+<img src= "filmes.jpg">
+
+E é assim que fica nossa pagina.
+
+
 ### globals.css
 O CSS Global aplica-se a toda a aplicação, ou seja, todos os elementos em qualquer página ou componente serão afetados por essas regras.
 
@@ -104,6 +109,7 @@ Ele é semelhante ao CSS tradicional, onde as classes e seletores aplicam estilo
 Bom para: reset de CSS, tipografia padrão, e estilos comuns que se aplicam em várias partes da aplicação.
 
 
+
 Nessa parte:
 ```
 body {
@@ -111,6 +117,10 @@ body {
 }
 ```
 Ele muda o corpo da pagina inteiro para cor azul claro, isso será aplicado para qualquer pagina ou componentes 
+
+<img src="shrek.PNG">
+
+Por isso ambas as paginas tem o mesmo fundo sem colocarmos em seu respectivo CSS.
  
 ### Page.module.css
 Um CSS Módulo é usado para aplicar estilos localmente em um componente. Isso significa que os estilos definidos em um módulo só afetam o componente ao qual estão associados.
