@@ -10,9 +10,10 @@ Para a criação do projeto next.js é necessario seguir uma sequencia de açõe
 
 2.Após a instalação, ir no terminal do VS code e digitar "npx create-next-app@latest nome-do-projeto".
 
-3.Apareceram algumas opções, configure dessa forma.
+3.Apareceram algumas opções, configure da forma que quiser. Esta eu acho a melhor forma de configuração.
 
-<img src="">
+<img src="opcoes.png">
+
 
 4.Para entrar no diretório digite " cd nome-do-projeto"
 
@@ -21,8 +22,7 @@ Para a criação do projeto next.js é necessario seguir uma sequencia de açõe
 ## ReactJS 
 Ele é uma biblioteca de JavaScript, criada pela Facebook, de código aberto para criar interfaces de usuário (UI) em aplicativos web ou a vídeos de reações em redes sociais
 
-## Node.JS
-Node.js é um software de código aberto, multiplataforma, baseado no interpretador V8 do Google e que permite a execução de códigos JavaScript fora de um navegador web. A principal característica do Node.js é sua arquitetura assíncrona e orientada por eventos ,ou seja ,ele é a ferramenta que vai nos entregar a capacidade de interpretar código JavaScript, de maneira bem similar ao navegador. Nele posssui o NPM (Node Package Manager): A maior biblioteca de pacotes open-source do mundo, permitindo o fácil uso de bibliotecas prontas para desenvolvimento.
+
 
 ## src/APP
 No React, o arquivo src/App contém o primeiro componente do aplicativo, o App, e outras linhas de código.Cada arquivo ou subpasta dentro de app é mapeado automaticamente para uma rota correspondente na aplicação, simplificando a estrutura e o roteamento.Se houver um arquivo src/app/nome/page.js, a URL correspondente será http://localhost:3000/home que é onde seu app , pagina ou projeto vai estar rodando.
