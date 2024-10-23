@@ -153,5 +153,47 @@ Nessa parte:
 .titulo: é um contêiner flexível que centraliza seu conteúdo e texto, com um espaçamento de 15px entre os itens internos e uma margem interna de 10px. O texto tem uma cor azul escura.
 Esses estilos são aplicados localmente no componente que importa esse CSS Módulo
 
+
 ## Pasta components
+Components são o bloco de construção fundamental em React, e são essenciais para a arquitetura de qualquer aplicação baseada em React, incluindo o Next.js. Na qual permitem a criação de interfaces de usuário (UI) de forma modular, reutilizável e manutenível.A pasta /components (normalmente criada manualmente) é onde colocamos os componentes reutilizáveis. Esses componentes podem ser usados em várias partes da aplicação, como páginas, layouts e outros componentes. A ideia é modularizar a aplicação.
+No projeto de exemplo está:
+
+### card
+Nessa parte criamos um componente card (Card.js) que será usado em uma página do Next.js:
+```
+import styles from "./card.module.css";
+
+function Card({url}){
+    console.log(url);
+    return (
+        <article className={styles.poster}>
+            <img className={styles.imagem} src={url} />
+            <button>clique</button>
+        </article>
+    )
+}
+
+export default Card;
+```
+O componente Card recebe uma prop url que contém o link da imagem a ser exibida. Agora o módulo CSS card.module.css define classes específicas para estilizar o componente (poster e imagem), e essas classes são aplicadas de forma escopada e única. 
+Os componente exibe um article que contém uma imagem (cujo src é a url recebida pela prop) e um botão. Por consequência , o console.log(url) é usado para imprimir a URL no console, ajudando na verificação de que a prop está sendo corretamente passada. 
+
+### menu
+Nessa parte criamos um componente menu (Menu.js) que será usado em uma página do Next.js:
+```
+import Link from "next/link";
+import style from "./menu.module.css";
+
+export function Menu() {
+    return (
+        <header className={style.menu}>
+            <Link href="/">Filmes</Link>
+            <Link href="/Shrek">Shrek</Link>
+        </header>
+    )
+}
+
+export default Menu;
+```
+O código implementa um menu de navegação no formato de um componente funcional em React/Next.js. Ele usa o componente Link do Next.js para criar links de navegação entre páginas da aplicação, sem recarregar a página inteira (navegação client-side). O arquivo CSS menu.module.css é importado usando CSS Modules, permitindo que estilos sejam aplicados de forma modular e exclusiva ao componente Menu. O componente é exportado como default, para que possa ser reutilizado em qualquer outra parte da aplicação. 
 
