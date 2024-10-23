@@ -4,6 +4,7 @@
 
 Projeto que mostra como criar um projeto Next.js e utilizar o React.
 
+
 ## Criação do Projeto
 
 Para a criação do projeto next.js é necessario seguir uma sequencia de ações.
@@ -20,6 +21,8 @@ Para a criação do projeto next.js é necessario seguir uma sequencia de açõe
 4.Para entrar no diretório digite " cd nome-do-projeto"
 
 5.E para iniciar o servidor digite " npm run dev "
+
+Para a execução do código de um "npm install " antes do " npm run dev"
 
 ## ReactJS 
 Ele é uma biblioteca de JavaScript, criada pela Facebook, de código aberto para criar interfaces de usuário (UI) em aplicativos web ou a vídeos de reações em redes sociais.
