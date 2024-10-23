@@ -94,6 +94,21 @@ export default function Home() {
 ```
 Será uma função para criar a pagina principal , onde foi criado dois card (dentro do section ).
 
+### globals.css
+O CSS Global aplica-se a toda a aplicação, ou seja, todos os elementos em qualquer página ou componente serão afetados por essas regras.
+Ele é geralmente definido em um arquivo como globals.css, localizado na pasta src.
+Ele é semelhante ao CSS tradicional, onde as classes e seletores aplicam estilos em nível global.
+Bom para: reset de CSS, tipografia padrão, e estilos comuns que se aplicam em várias partes da aplicação.
+
+
+Nessa parte:
+```
+body {
+    background-color: lightblue;
+}
+```
+Ele muda o corpo da pagina inteiro para cor azul claro, isso será aplicado para qualquer pagina ou componentes 
+ 
 ### Page.module.css
 
 ## Pasta components
