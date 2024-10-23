@@ -12,7 +12,7 @@ Para a criação do projeto next.js é necessario seguir uma sequencia de açõe
 
 3.Apareceram algumas opções, configure da forma que quiser. Esta eu acho a melhor forma de configuração.
 
-<img src="opcoes.png">
+<img src="opcoes.PNG">
 
 
 4.Para entrar no diretório digite " cd nome-do-projeto"
