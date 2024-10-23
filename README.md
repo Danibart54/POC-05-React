@@ -195,5 +195,7 @@ export function Menu() {
 
 export default Menu;
 ```
-O código implementa um menu de navegação no formato de um componente funcional em React/Next.js. Ele usa o componente Link do Next.js para criar links de navegação entre páginas da aplicação, sem recarregar a página inteira (navegação client-side). O arquivo CSS menu.module.css é importado usando CSS Modules, permitindo que estilos sejam aplicados de forma modular e exclusiva ao componente Menu. O componente é exportado como default, para que possa ser reutilizado em qualquer outra parte da aplicação. 
+O código implementa um menu de navegação no formato de um componente funcional em React/Next.js. Ele usa o componente Link do Next.js para criar links de navegação entre páginas da aplicação, sem recarregar a página inteira (navegação client-side). O arquivo CSS menu.module.css é importado usando CSS Modules, permitindo que estilos sejam aplicados de forma modular e exclusiva ao componente Menu. 
+
+Como na Page.js nos importamos o Menu e Card no final do js dos componentes temos que dar um Export Default para que o os componentes sejam reutilizados em qualquer parte da aplicação enviando para o import.
 
