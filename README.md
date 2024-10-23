@@ -110,6 +110,32 @@ body {
 Ele muda o corpo da pagina inteiro para cor azul claro, isso será aplicado para qualquer pagina ou componentes 
  
 ### Page.module.css
+Um CSS Módulo é usado para aplicar estilos localmente em um componente. Isso significa que os estilos definidos em um módulo só afetam o componente ao qual estão associados.
+Arquivos de CSS Módulo têm a extensão .module.css e são importados diretamente dentro do componente onde os estilos serão usados.
+Ao importar, Next.js gera classes únicas automaticamente, garantindo que não haja conflitos de nomes de classe entre diferentes componentes.
+
+
+Nessa parte:
+```
+.filmes {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.titulo {
+  display:flex;
+  justify-content:center;
+  text-align: center;
+  color: darkblue;
+  gap: 15px;
+  padding: 10px;
+}
+```
+.filmes: é um contêiner flexível que organiza seus itens em múltiplas linhas (se necessário), centralizando-os horizontalmente e deixando um espaço de 25px entre cada item.
+.titulo: é um contêiner flexível que centraliza seu conteúdo e texto, com um espaçamento de 15px entre os itens internos e uma margem interna de 10px. O texto tem uma cor azul escura.
+Esses estilos são aplicados localmente no componente que importa esse CSS Módulo
 
 ## Pasta components
 
