@@ -20,9 +20,10 @@ Para a criação do projeto next.js é necessario seguir uma sequencia de açõe
 5.E para iniciar o servidor digite " npm run dev "
 
 ## ReactJS 
-Ele é uma biblioteca de JavaScript, criada pela Facebook, de código aberto para criar interfaces de usuário (UI) em aplicativos web ou a vídeos de reações em redes sociais
+Ele é uma biblioteca de JavaScript, criada pela Facebook, de código aberto para criar interfaces de usuário (UI) em aplicativos web ou a vídeos de reações em redes sociais.
+Quando criar o projeto esse sera os arquivos que seram criados.
 
-
+<img src="projeto.PNG">
 
 ## src/APP
 No React, o arquivo src/App contém o primeiro componente do aplicativo, o App, e outras linhas de código.Cada arquivo ou subpasta dentro de app é mapeado automaticamente para uma rota correspondente na aplicação, simplificando a estrutura e o roteamento.Se houver um arquivo src/app/nome/page.js, a URL correspondente será http://localhost:3000/home que é onde seu app , pagina ou projeto vai estar rodando.
