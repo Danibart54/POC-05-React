@@ -1,4 +1,4 @@
-# POC-05-React
+  # POC-05-React
 
 <img src="banner.jpg">
 
@@ -29,7 +29,7 @@ Quando criar o projeto esse sera os arquivos que seram criados.
 
 ## Package.json 
 
-O package.json é um arquivo muito importante para projetos no next.js, pois apresenta metadados do projeto 
+O arquivo package.json é essencial em projetos Node.js e JavaScript, pois contém metadados sobre o projeto, como o nome, versão e descrição. Ele também lista as dependências necessárias para o funcionamento da aplicação, além de scripts que automatizam tarefas (como iniciar o servidor ou rodar testes). Este arquivo facilita a gestão e compartilhamento do projeto, garantindo que outras pessoas possam instalar as mesmas dependências e rodar o código corretamente.
 
 ## src/APP
 No React, o arquivo src/App contém o primeiro componente do aplicativo, o App, e outras linhas de código.Cada arquivo ou subpasta dentro de app é mapeado automaticamente para uma rota correspondente na aplicação, simplificando a estrutura e o roteamento.Se houver um arquivo src/app/nome/page.js, a URL correspondente será http://localhost:3000/home que é onde seu app , pagina ou projeto vai estar rodando.
