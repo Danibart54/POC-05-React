@@ -1,0 +1,22 @@
+.poster {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+}
+
+.imagem {
+    height: 400px;
+    width: 300px;
+}
+
+.poster button {
+    font-size: inherit;
+    border: none;
+    border-radius: 10px 10px 10px 10px ;
+}
+
+.poster button:active {
+    background-color: lightgreen;
+    
+}
