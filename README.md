@@ -1,5 +1,7 @@
 # POC-05-React
 
+<img src="banner.jpg">
+
 Projeto que mostra como criar um projeto Next.js e utilizar o React.
 
 ## Criação do Projeto
